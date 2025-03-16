@@ -1,0 +1,69 @@
+footer{
+    background-color: gray;
+    color: blue;
+    font-size: 20px;
+}
+body{
+    background-color: black;
+    color: gray;
+}
+img{
+    border-color: blue;
+    border-width: 2px;
+    border-style: double;
+}
+nav.menu{
+    background-color: gray;
+}
+nav.menu ul li a{
+    color: blue;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav.menu ul li a:hover{
+    color:aqua;
+    transition: color 0.5s;
+}
+
+section{
+    width: 70%;
+    padding-right: 10px;
+}
+
+aside{
+    width: 30%;
+    text-align: left;
+}
+div.tudo{
+    display: flex;
+}
+header{
+    text-align: center;
+}
+hr{
+    border: 10px inset gray;
+}
+
+table,table tr td{
+    border: 1px solid aliceblue;
+}
+a:any-link{
+    color: antiquewhite;
+}
+a:visited{
+    color: darkgray;
+}
+a:hover{
+    color: blue;
+    transition: 0.5s;
+}
